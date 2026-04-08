@@ -183,7 +183,7 @@ const WaterfallChart3D: React.FC = () => {
             const fy = b.y;
             const fW = barW;
             const fH = b.barH;
-            const isNet = b.label === 'Net';
+
 
             // Right face parallelogram
             const side = [
